@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div class="typewriter">
+        <h1>Joran Nicolai</h1>
+    </div>
     <!-- Header Start -->
     <header class="site-header">
         <div class="wrapper site-header__wrapper">
@@ -19,13 +22,14 @@
             <div class="site-header__end">
                 <nav class="nav">
                     <button class="nav__toggle" aria-expanded="false" type="button">
-                menu
+                
               </button>
                     <ul class="nav__wrapper">
                         <li class="nav__item"><a href="index.html">Landing page</a></li>
                         <li class="nav__item"><a href="Overmij.html">Over mij</a></li>
                         <li class="nav__item"><a href="producten.html">Producten</a></li>
                         <li class="nav__item"><a href="contact.html">Contact</a></li>
+                        <li class="nav__item"><a href="extra.html">Extra's</a></li>
                     </ul>
                 </nav>
                 <div class="search">
@@ -42,69 +46,91 @@
     </header>
     <!-- Header End -->
 
+
     <script src="js/header-3.js"></script>
 
-    <div class="container">
-        <div class="blok1">
-            Jorannicolai@gmail.com
+    <div class="container100">
+
+
+        <div class="container100">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+      <option value="Renkum">Renkum</option>
+      <option value="Milingen">Milingen</option>
+      <option value="Oss">Oss</option>
+    </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
-        <div class="blok1"></div>
-        <div class="blok1"></div>
+
+</body>
+</div>
+
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Portfolio<span> Joran Nicolai</span></h3>
+
+        <p class="footer-links">
+            <a href="index.html">Landing page</a> ·
+            <a href="Overmij.html">Over mij</a> ·
+            <a href="producten.html">Producten</a> ·
+            <a href="contact.html">Contact</a> ·
+            <a href="extra.html">Extra's</a>
+        </p>
+
+        <p class="footer-company-name">Portfolio &copy; 2021</p>
     </div>
 
+    <div class="footer-center">
 
-    <footer class="footer-distributed">
-
-        <div class="footer-left">
-
-            <h3>Portfolio<span> Joran Nicolai</span></h3>
-
-            <p class="footer-links">
-                <a href="index.html">Landing page</a> ·
-                <a href="Overmij.html">Over mij</a> ·
-                <a href="producten.html">Producten</a> ·
-                <a href="contact.html">Contact</a>
-            </p>
-
-            <p class="footer-company-name">Portfolio &copy; 2021</p>
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Heyendaalseweg 98</span> ROC Nijmegen, Nederland</p>
         </div>
 
-        <div class="footer-center">
+        <div>
+            <i class="Joran Nicolai"></i>
+            <p>+31621334928</p>
+        </div>
 
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Heyendaalseweg 98</span> ROC Nijmegen, Nederland</p>
-            </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="jorannicolai@gmail.com">jorannicolai@gmail.com</a></p>
+        </div>
 
-            <div>
-                <i class="Joran Nicolai"></i>
-                <p>+31621334928</p>
-            </div>
+    </div>
 
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="jorannicolai@gmail.com">jorannicolai@gmail.com</a></p>
-            </div>
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>Portfolio</span> Portfolio van Joran Nicolai zie hier wat ik gemaakt heb.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#">
+                <p>Back to top!<i class="facebook"></i></p>
+
 
         </div>
 
-        <div class="footer-right">
+    </div>
 
-            <p class="footer-company-about">
-                <span>Portfolio</span> Portfolio van Joran Nicolai zie hier wat ik gemaakt heb.
-            </p>
-
-            <div class="footer-icons">
-
-                <a href="#">
-                    <p>Back to top!<i class="facebook"></i></p>
-
-
-            </div>
-
-        </div>
-
-    </footer>
+</footer>
 </body>
 
 </html>
